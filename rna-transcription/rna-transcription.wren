@@ -7,10 +7,6 @@ var RNA = {
 
 class DNA {
   static toRNA(strand) {
-    var rna = ""
-    for (nucleotide in strand) {
-      rna = rna + RNA[nucleotide]
-    }
-    return rna
+    return strand.map{ |nucleotide| RNA[nucleotide] }.join()
   }
 }
