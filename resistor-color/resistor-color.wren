@@ -13,10 +13,6 @@ var COLORS = [
 
 class Resistor {
   static colorCode(color) {
-    for (i in 0..COLORS.count - 1){
-      if (COLORS[i] == color) {
-        return i
-      }
-    }
+    return COLORS.indexOf(color)
   }
 }
