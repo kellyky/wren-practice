@@ -12,7 +12,5 @@ var COLORS = [
 ]
 
 class Resistor {
-  static colorCode(color) {
-    return COLORS.indexOf(color)
-  }
+  static colorCode(color) { COLORS.indexOf(color) }
 }
