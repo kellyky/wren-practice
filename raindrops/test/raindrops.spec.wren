@@ -1,4 +1,4 @@
-import "./raindrops" for Raindrops
+import ".src/raindrops" for Raindrops
 import "wren-testie/testie" for Testie, Expect
 
 Testie.test("Raindrops") { |do, skip|
